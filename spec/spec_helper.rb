@@ -23,8 +23,10 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
   config.order = "random"
   config.use_transactional_fixtures = false
+  config.include Devise::TestHelpers, :type => :controller
 end
 
+OmniAuth.config.test_mode = true
 ActiveRecord::Migration.maintain_test_schema!
 Capybara.javascript_driver = :webkit
 WebMock.disable_net_connect!(allow_localhost: true)

@@ -1,0 +1,13 @@
+{
+  "provider": "linkedin",
+  "info": {
+    "email": "example@example.com",
+    "location": {
+      "name": "location name",
+      "country": { "code": "location country code" }
+    }
+  },
+  "credentials": {
+    "token": "example token"
+  }
+}
