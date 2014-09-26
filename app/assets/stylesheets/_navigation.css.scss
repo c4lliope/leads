@@ -1,0 +1,15 @@
+.outer-nav {
+  background-color: $blue;
+  padding: $gutter;
+  color: $light-gray;
+  .logo {
+    font-weight: bold;
+  }
+  .sessions {
+    display: inline-block;
+    float: right;
+  }
+  a {
+    color: $light-gray;
+  }
+}
