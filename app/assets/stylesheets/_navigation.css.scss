@@ -1,15 +1,8 @@
-.outer-nav {
+.nav {
   background-color: $blue;
+  color: white;
   padding: $gutter;
-  color: $light-gray;
-  .logo {
-    font-weight: bold;
-  }
-  .sessions {
-    display: inline-block;
-    float: right;
-  }
-  a {
-    color: $light-gray;
-  }
+  .logo { font-weight: bold; }
+  .session { float: right; }
+  a { color: white; }
 }

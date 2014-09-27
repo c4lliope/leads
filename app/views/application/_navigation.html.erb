@@ -1,12 +1,10 @@
-<div class="outer-nav">
-  <div class="inner-nav">
-    <span class="logo">LEADLIST</span>
-    <span class="session">
-      <% if signed_in? %>
-        <%= link_to I18n.t("sign_out"), destroy_user_session_path %>
-      <% else %>
-        <%= link_to I18n.t("sign_in"), user_omniauth_authorize_path(:linkedin) %>
-      <% end %>
-    </span>
-  </div>
+<div class="nav">
+  <span class="logo">LEADLIST</span>
+  <span class="session">
+    <% if signed_in? %>
+      <%= link_to I18n.t("sign_out"), destroy_user_session_path %>
+    <% else %>
+      <%= link_to I18n.t("sign_in"), user_omniauth_authorize_path(:linkedin) %>
+    <% end %>
+  </span>
 </div>
