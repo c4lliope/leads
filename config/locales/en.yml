@@ -1,7 +1,6 @@
 en:
   sign_in: "Sign in with LinkedIn"
   sign_out: "Sign out"
-  invalid_credentials: "Something went wrong, please try to sign in again"
 
   date:
     formats:

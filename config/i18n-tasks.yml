@@ -1,3 +1,7 @@
+data:
+  read:
+    - config/locales/%{locale}.yml
+    - config/locales/*.%{locale}.yml
 search:
   paths:
     - "app/controllers"
@@ -10,3 +14,5 @@ ignore_unused:
   - date.*
   - simple_form.*
   - time.*
+  - devise.*
+  - errors.*
